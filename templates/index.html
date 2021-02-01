@@ -11,6 +11,13 @@
         {{ form.csrf_token }}
         <div class = "form-field">{{ form.month.label }} {{ form.month }}</div>
         <div class = "form-field">{{ form.dayofweek.label }} {{ form.dayofweek }}</div>
+        <div class = "form-field">{{ form.borough.label }} {{ form.borough }}</div>
+        <div class = "form-field">{{ form.min_humidity.label }} {{ form.min_humidity }}</div>
+        <div class = "form-field">{{ form.max_humidity.label }} {{ form.max_humidity }}</div>
+        <div class = "form-field">{{ form.min_temp.label }} {{ form.min_temp }}</div>
+        <div class = "form-field">{{ form.max_temp.label }} {{ form.max_temp }}</div>
+        <div class = "form-field">{{ form.weather_description.label }} {{ form.weather_description }}</div>
+
         <input type = "submit" value = "submit">
 
     </form>
